@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/11_CustomControls/ColorPanel/Resources/Stylesheet_ColorPanel.uss?fileID=7433441132597879392&amp;guid=79a77a537b3690d42908b64efb25670f&amp;type=3#Stylesheet_ColorPanel" />
+    <CustomControls.ColorPanel />
+</ui:UXML>

@@ -1,0 +1,5 @@
+Label {
+    color: rgba(255, 255, 255, 255);
+    font-size: 22px;
+    -unity-font-style: bold;
+}

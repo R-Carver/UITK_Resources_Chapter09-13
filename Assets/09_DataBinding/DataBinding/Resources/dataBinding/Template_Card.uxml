@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Card1" class="card" style="background-color: rgb(214, 31, 31); flex-basis: 200px; align-items: center; justify-content: center; height: 20px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 0; width: 200px;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="name" style="-unity-font-definition: url(&apos;project://database/Assets/09_DataBinding/DataBinding/fonts/AlumniSansPinstripe-Regular%20SDF.asset?fileID=11400000&amp;guid=9df9359af6404064c8d57de784bb45cc&amp;type=2#AlumniSansPinstripe-Regular SDF&apos;); font-size: 32px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; height: auto; width: 100%; background-color: rgb(255, 241, 179); margin-left: 0; margin-right: 0; padding-left: 30px; padding-right: 30px; flex-basis: 100px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; justify-content: center;">
+            <ui:Label tabindex="-1" text="Description" display-tooltip-when-elided="true" name="description" style="-unity-text-align: upper-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

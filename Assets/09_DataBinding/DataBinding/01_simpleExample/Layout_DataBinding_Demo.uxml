@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/09_DataBinding/DataBinding/Stylesheet_DataBinding.uss?fileID=7433441132597879392&amp;guid=4aa73092794400845b22d649d6d04ac2&amp;type=3#Stylesheet_DataBinding" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(18, 28, 45); flex-direction: row;">
+        <ui:VisualElement name="left" style="flex-basis: 30%; align-items: stretch; justify-content: center; padding-left: 50px; padding-right: 50px; padding-top: 100px; padding-bottom: 100px; -unity-text-outline-color: rgb(255, 241, 179); background-color: rgb(255, 241, 179);">
+            <ui:TextField picking-mode="Ignore" label="Name" value="Name" text="Name" style="flex-direction: row; color: rgb(18, 28, 45); align-items: center; margin-bottom: 30px; font-size: 25px;" />
+            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" text="Description" style="flex-direction: row; color: rgb(18, 28, 45); align-items: center; font-size: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right" style="flex-basis: 70%; flex-direction: row; padding-left: 5%; padding-right: 5%; padding-top: 10%; padding-bottom: 10%; align-items: center; justify-content: space-around;">
+            <ui:VisualElement name="Card1" style="background-color: rgb(214, 31, 31); flex-basis: 20%; align-items: center; justify-content: space-around; height: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 30px;">
+                <ui:VisualElement name="avatar" style="width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-image: url(&apos;project://database/Assets/09_DataBinding/DataBinding/Resources/dataBinding/img_lara.png?fileID=2800000&amp;guid=a62331fbd901efc40b07747e52a5c956&amp;type=3#img_lara&apos;);" />
+                <ui:Label tabindex="-1" text="Lara" display-tooltip-when-elided="true" name="name" class="text_name" style="-unity-font-definition: url(&apos;project://database/Assets/09_DataBinding/DataBinding/fonts/AlumniSansPinstripe-Regular%20SDF.asset?fileID=11400000&amp;guid=9df9359af6404064c8d57de784bb45cc&amp;type=2#AlumniSansPinstripe-Regular SDF&apos;);" />
+                <ui:VisualElement style="flex-grow: 0; height: auto; width: 100%; background-color: rgb(255, 241, 179);">
+                    <ui:Label tabindex="-1" text="Likes to play the &#10;piano" display-tooltip-when-elided="true" name="description" class="text_desc" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Card2" style="background-color: rgb(214, 31, 31); flex-basis: 20%; align-items: center; justify-content: space-around; height: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 30px; padding-left: 0; padding-right: 0;">
+                <ui:VisualElement name="avatar" style="width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-image: url(&apos;project://database/Assets/09_DataBinding/DataBinding/Resources/dataBinding/img_rodolfo.png?fileID=2800000&amp;guid=3a2078d58c141cd498e7a0af160fb034&amp;type=3#img_rodolfo&apos;);" />
+                <ui:Label tabindex="-1" text="Rodolfo" display-tooltip-when-elided="true" name="name" class="text_name" />
+                <ui:VisualElement style="background-color: rgb(255, 241, 179); width: 100%;">
+                    <ui:Label tabindex="-1" text="Paints clouds for&#10; a living" display-tooltip-when-elided="true" name="description" class="text_desc" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Card3" style="background-color: rgb(214, 31, 31); flex-basis: 20%; align-items: center; justify-content: space-around; height: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 30px; padding-left: 0; padding-right: 0;">
+                <ui:VisualElement name="avatar" style="width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-image: url(&apos;project://database/Assets/09_DataBinding/DataBinding/Resources/dataBinding/img_maya.png?fileID=2800000&amp;guid=b9d77365a2fa61c45a5546b6ec1812be&amp;type=3#img_maya&apos;);" />
+                <ui:Label tabindex="-1" text="Maya" display-tooltip-when-elided="true" name="name" class="text_name" />
+                <ui:VisualElement style="width: 100%; padding-left: 20px; padding-right: 20px; -unity-background-image-tint-color: rgb(56, 56, 56); background-color: rgb(255, 241, 179);">
+                    <ui:Label tabindex="-1" text="Collects&#10; Monster Trucks" display-tooltip-when-elided="true" name="description" class="text_desc" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

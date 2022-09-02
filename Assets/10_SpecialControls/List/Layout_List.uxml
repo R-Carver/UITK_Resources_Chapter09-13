@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/10_SpecialControls/List/Stylesheet_List.uss?fileID=7433441132597879392&amp;guid=9c7574f4c08cc1b458b0caaed94f3b4c&amp;type=3#Stylesheet_List" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(18, 28, 45); align-items: center; justify-content: center; padding-left: 50px; padding-right: 50px; padding-top: 150px; padding-bottom: 50px;">
+        <ui:ListView focusable="true" name="MyList" />
+    </ui:VisualElement>
+</ui:UXML>

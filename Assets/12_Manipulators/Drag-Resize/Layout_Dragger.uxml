@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 241, 179); flex-direction: row; align-items: center; justify-content: center;">
+        <ui:VisualElement name="Elem1" style="width: 200px; height: 200px; background-color: rgb(235, 86, 86); left: -406px; position: relative;">
+            <ui:VisualElement name="Resizer" style="width: 50px; height: 50px; background-color: rgb(87, 84, 84); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Elem2" style="width: 200px; height: 200px; position: absolute; left: 1190px; background-color: rgb(18, 28, 45);" />
+    </ui:VisualElement>
+</ui:UXML>

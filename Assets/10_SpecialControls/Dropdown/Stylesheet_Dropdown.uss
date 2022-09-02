@@ -1,0 +1,21 @@
+#MyDropdown > VisualElement > VisualElement {
+    -unity-background-image-tint-color: rgba(255, 241, 179, 255);
+}
+
+#MyDropdown > VisualElement {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(255, 241, 179, 255);
+    border-right-color: rgba(255, 241, 179, 255);
+    border-top-color: rgba(255, 241, 179, 255);
+    border-bottom-color: rgba(255, 241, 179, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+#MyDropdown > VisualElement > PopupTextElement {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    -unity-font-style: bold;
+}

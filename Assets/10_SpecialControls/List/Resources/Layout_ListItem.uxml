@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: row; background-color: rgba(255, 241, 179, 255);">
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Name" style="flex-basis: 150px; font-size: 22px; -unity-font-style: bold; color: rgb(0, 0, 0);" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="Surname" style="flex-basis: 150px; font-size: 22px; -unity-font-style: bold; color: rgb(0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

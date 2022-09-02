@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/09_DataBinding/DataBinding/Stylesheet_DataBinding.uss?fileID=7433441132597879392&amp;guid=4aa73092794400845b22d649d6d04ac2&amp;type=3#Stylesheet_DataBinding" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(18, 28, 45); flex-direction: row;">
+        <ui:VisualElement name="left" style="flex-basis: 30%; align-items: stretch; justify-content: center; padding-left: 50px; padding-right: 50px; padding-top: 100px; padding-bottom: 100px; -unity-text-outline-color: rgb(255, 241, 179); background-color: rgb(255, 241, 179);">
+            <ui:TextField picking-mode="Ignore" label="Name" value="Name" text="Name" name="Input_Name" style="flex-direction: row; color: rgb(18, 28, 45); align-items: center; margin-bottom: 30px; font-size: 25px;" />
+            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" text="Description" name="Input_Desc" style="flex-direction: row; color: rgb(18, 28, 45); align-items: center; font-size: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="cardContainer" style="flex-basis: 70%; flex-direction: row; padding-left: 5%; padding-right: 5%; padding-top: 10%; padding-bottom: 10%; align-items: center; justify-content: space-around;">
+            <ui:VisualElement name="Card1" class="card" style="background-color: rgb(214, 31, 31); flex-basis: 20%; align-items: center; justify-content: space-around; height: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 30px;">
+                <ui:VisualElement name="avatar" style="width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-image: url(&apos;project://database/Assets/09_DataBinding/DataBinding/Resources/dataBinding/nutzer.png?fileID=2800000&amp;guid=40ec8498f29630648bd405686c1ce432&amp;type=3#nutzer&apos;);" />
+                <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="name" class="text_name" />
+                <ui:VisualElement style="flex-grow: 0; height: auto; width: 100%; background-color: rgb(255, 241, 179); margin-left: 0; margin-right: 0; padding-left: 30px; padding-right: 30px;">
+                    <ui:Label tabindex="-1" text="some Description" display-tooltip-when-elided="true" name="description" class="text_desc" style="white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Card2" class="card" style="background-color: rgb(214, 31, 31); flex-basis: 20%; align-items: center; justify-content: space-around; height: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 30px;">
+                <ui:VisualElement name="avatar" style="width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-image: url(&apos;project://database/Assets/09_DataBinding/DataBinding/Resources/dataBinding/nutzer.png?fileID=2800000&amp;guid=40ec8498f29630648bd405686c1ce432&amp;type=3#nutzer&apos;);" />
+                <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="name" class="text_name" />
+                <ui:VisualElement style="flex-grow: 0; height: auto; width: 100%; background-color: rgb(255, 241, 179); margin-left: 0; margin-right: 0; padding-left: 30px; padding-right: 30px;">
+                    <ui:Label tabindex="-1" text="some Description" display-tooltip-when-elided="true" name="description" class="text_desc" style="white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Card3" class="card" style="background-color: rgb(214, 31, 31); flex-basis: 20%; align-items: center; justify-content: space-around; height: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-top: 0; padding-top: 30px; padding-bottom: 30px;">
+                <ui:VisualElement name="avatar" style="width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-image: url(&apos;project://database/Assets/09_DataBinding/DataBinding/Resources/dataBinding/nutzer.png?fileID=2800000&amp;guid=40ec8498f29630648bd405686c1ce432&amp;type=3#nutzer&apos;);" />
+                <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="name" class="text_name" />
+                <ui:VisualElement style="flex-grow: 0; height: auto; width: 100%; background-color: rgb(255, 241, 179); margin-left: 0; margin-right: 0; padding-left: 30px; padding-right: 30px;">
+                    <ui:Label tabindex="-1" text="some Description" display-tooltip-when-elided="true" name="description" class="text_desc" style="white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

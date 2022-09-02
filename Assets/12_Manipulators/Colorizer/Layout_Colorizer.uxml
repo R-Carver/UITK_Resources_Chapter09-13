@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 241, 179); flex-direction: row; align-items: center; justify-content: space-around; padding-left: 300px; padding-right: 300px;">
+        <ui:VisualElement name="Elem1" style="background-color: rgb(113, 113, 113); width: 200px; height: 200px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+        <ui:VisualElement name="Elem2" style="background-color: rgb(113, 113, 113); width: 200px; height: 200px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+        <ui:VisualElement name="Elem3" style="background-color: rgb(113, 113, 113); width: 200px; height: 200px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

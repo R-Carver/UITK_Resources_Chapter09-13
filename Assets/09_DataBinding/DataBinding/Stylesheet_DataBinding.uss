@@ -1,0 +1,56 @@
+.unity-text-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-color: rgb(18, 28, 45);
+    -unity-text-align: upper-center;
+}
+
+TextField > Label {
+    font-size: 25px;
+    display: none;
+}
+
+#Card:hover {
+    border-left-color: rgb(255, 241, 179);
+    border-right-color: rgb(255, 241, 179);
+    border-top-color: rgb(255, 241, 179);
+    border-bottom-color: rgb(255, 241, 179);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.card:hover {
+    border-left-color: rgb(255, 241, 179);
+    border-right-color: rgb(255, 241, 179);
+    border-top-color: rgb(255, 241, 179);
+    border-bottom-color: rgb(255, 241, 179);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.text_name {
+    -unity-font: url('project://database/Assets/09_DataBinding/DataBinding/fonts/AlumniSansPinstripe-Regular.ttf?fileID=12800000&guid=2794a2180f10e9447a267bff3b4636b6&type=3#AlumniSansPinstripe-Regular');
+    -unity-font-definition: none;
+    -unity-font-style: bold;
+    font-size: 34px;
+}
+
+.text_desc {
+    -unity-text-align: upper-center;
+    font-size: 22px;
+    -unity-font: url('project://database/Assets/09_DataBinding/DataBinding/fonts/AlumniSansPinstripe-Regular.ttf?fileID=12800000&guid=2794a2180f10e9447a267bff3b4636b6&type=3#AlumniSansPinstripe-Regular');
+    -unity-font-definition: url('project://database/Assets/09_DataBinding/DataBinding/fonts/AlumniSansPinstripe-Regular%20SDF.asset?fileID=11400000&guid=9df9359af6404064c8d57de784bb45cc&type=2#AlumniSansPinstripe-Regular SDF');
+    -unity-font-style: bold;
+}

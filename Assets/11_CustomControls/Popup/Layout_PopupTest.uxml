@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/11_CustomControls/Popup/Resources/Stylesheet_PopupPanel.uss?fileID=7433441132597879392&amp;guid=4c800334e6ea0184e9c98194298000ad&amp;type=3#Stylesheet_PopupPanel" />
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/10_SpecialControls/Dropdown/Stylesheet_Dropdown.uss?fileID=7433441132597879392&amp;guid=49a161cd298c2134888c8eb453a614c2&amp;type=3#Stylesheet_Dropdown" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(18, 28, 45); justify-content: center; align-items: center;">
+        <ui:DropdownField label="Dropdown" index="-1" name="MyDropdown" style="color: rgb(255, 255, 255); font-size: 22px; width: 60%;" />
+    </ui:VisualElement>
+</ui:UXML>
